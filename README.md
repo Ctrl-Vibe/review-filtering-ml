@@ -22,6 +22,6 @@ If you'd like to rerun the scraping process yourself, you can follow these steps
 4. Open the notebook in Google Colab.
 5. In the left panel, click on the **Secrets** button.
 6. Click on **Add New Secret**.
-7. Enable **Notebook Access**, then enter `APIFY_API_KEY_` in the **Name** field and paste your API key in the **Value** field.
+7. Enable **Notebook Access**, then enter `APIFY_API_KEY` in the **Name** field and paste your API key in the **Value** field.
 
 This will allow the notebook to access your API key and use it for replicating the scraping process.
