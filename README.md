@@ -17,10 +17,11 @@ We have uploaded the necessary data files that were scraped from Google using th
 If you'd like to rerun the scraping process yourself, you can follow these steps:
 
 1. Visit [Apify](https://www.apify.com/) and create an account if you don't have one already.
-2. Once signed in, go to the [API key section](https://www.apify.com/settings) of your Apify account to retrieve your personal API key.
-3. Open the notebook in Google Colab.
-4. In the left panel, click on the **Secrets** button.
-5. Click on **Add New Secret**.
-6. Enable **Notebook Access**, then enter `APIFY_API_KEY_` in the **Name** field and paste your API key in the **Value** field.
+2. Once signed in, go to the [API key section](https://console.apify.com/actors?tab=recently-used) of your Apify account. 
+3. Click on the **API** button on the top right corner and copy your API key to clipboard.
+4. Open the notebook in Google Colab.
+5. In the left panel, click on the **Secrets** button.
+6. Click on **Add New Secret**.
+7. Enable **Notebook Access**, then enter `APIFY_API_KEY_` in the **Name** field and paste your API key in the **Value** field.
 
 This will allow the notebook to access your API key and use it for replicating the scraping process.
