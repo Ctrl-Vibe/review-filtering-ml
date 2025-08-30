@@ -9,8 +9,8 @@ You don’t need to set up anything locally. To reproduce the results or use the
 1. Download our latest release, along with the training and sample test datasets.
 2. Open **Filtering_Reviews_Model.ipynb** on Google Colab.
 3. Connect to a runtime environment.
-4. Upload the training and sample test datasets to the current directory (/content/).
-5. Run all the cells. 
+4. Run all the cells.
+5. Upload the training and sample test datasets.
 6. The model will train itself with the training dataset. This process should take less than 5 minutes.
 7. Once ready, proceed and go through the predict and count sections. Results will be printed to the screen.
 
